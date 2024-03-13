@@ -56,7 +56,7 @@ osszesitoTabla.innerHTML += osszesit(FUTOK)
 
 // 3. feladat
 function befutott() {
-    const befutottakMegfog = document.querySelectorAll("feladat_1 tr");
+    const befutottakMegfog = document.querySelectorAll("#feladat_1 tr");
     for(let i = 0; i < befutottakMegfog.length; i++ ){
     befutottakMegfog[i].addEventListener("click", function(){
         tablaElemek.innerHTML += 
